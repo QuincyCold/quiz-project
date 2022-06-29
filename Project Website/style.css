@@ -1,0 +1,208 @@
+h1, h2, h3, h4, h5, h6 {
+
+}
+a, p, ul li, table, form, button {
+
+}
+
+button.btn {
+    padding: 15px 35px;
+}
+
+button {
+    transition: 200ms !important;
+}
+
+.btn-play {
+    background-color: rgb(174, 0, 255) !important;
+}
+
+.navLogo {
+    width: 30px;
+    height: 40px;
+}
+
+ul.navbar-nav {
+    gap: 20px;
+}
+
+.activeNavItem {
+    background-color: rgb(175, 175, 26);
+    border-radius: 0.25rem;
+    box-shadow: 0px 10px 20px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.text-blue {
+    color: #4E26E2 !important;
+}
+
+.text-purple {
+    color: #431C52 !important;
+}
+
+.text-orange {
+    color: orange !important;
+}
+
+.font-40 {
+    font-size: 40px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.w-50 {
+    width: 50%!important;
+}
+
+nav {
+    background: linear-gradient(90deg, rgb(198, 66, 250) 0%, rgb(151, 1, 201) 60%, rgb(112, 7, 187) 100%) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255) !important;
+}
+
+body {
+    background-image: url(images/web_designs/main-banner.jpg);
+    background-size: cover;
+}
+
+.ms-6 {
+    margin-left: 8.5rem !important;
+}
+
+.latestQuiz hr {
+    width: 50% !important;
+    height: 3px !important;
+}
+
+.card {
+    border: 0px !important;
+}
+
+.itecQuiz-local-footer {
+    padding: 12px 76px;
+    background-color: #c8cbcd !important;
+}
+
+.itecQuiz-network-footer {
+    padding: 12px 76px 0px 76px;
+    background-color: #f3f3f3 !important;
+}
+
+.itecQuiz-local-footer .local-links a {
+    transition: 200ms;
+}
+
+.itecQuiz-local-footer .local-links a:hover {
+    color: orange !important;
+}
+
+.network-footer-logo {
+    max-width: 55px;
+    max-height: 55px;
+}
+
+.network-general h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.laguages-btn .btn {
+    background: none !important;
+    color: black !important;
+    padding: 10px 20px;
+}
+
+.laguages-btn img {
+    width: 16px;
+    margin-bottom: 3px;
+}
+
+.network-languages .dropup .dropdown-toggle::after {
+    transform: rotateX(180deg);
+}
+
+.network-bottom .legal-links span {
+    font-size: 14px;
+}
+
+.legal-links {
+    padding-right: 5%;
+}
+
+
+/* media query */
+
+@media (min-width: 992px) {
+    .laguages-btn .dropdown-menu.show {
+        width: 300%;
+        padding: 10px 12px;
+    }
+    .network-languages .dropdown-item {
+        transition: 300ms;
+    }
+    .network-languages .dropdown-item:hover {
+        transform: translateX(5%);
+    }
+}
+
+@media (max-width: 992px) {
+    .laguages-btn .btn {
+        width: 70%;
+    }
+    .laguages-btn .dropdown-menu.show {
+        max-height: 500%;
+        width: 70%;
+        padding: 10px 12px;
+    }
+    .network-languages .dropdown-toggle {
+        display: flex;
+    }
+    .network-languages .dropup .dropdown-toggle::after {
+        margin-left: 8px;
+    }
+}
+
+@media (max-width: 767.2px) {
+    .laguages-btn .dropdown-menu.show {
+        width: 100%;
+    }
+    .laguages-btn .btn {
+        width: 100%;
+    }
+    .local-links {
+        flex-flow: row;
+    }
+    .local-links a {
+        width: 50%;
+    }
+    .local-links a p {
+        font-size: 15px;
+    }
+    .itecQuiz-local-footer {
+        padding: 12px 30px;
+    }
+    .itecQuiz-network-footer {
+        padding: 12px 35px 0px 35px;
+    }
+}
+
+@media (max-width: 640px) {
+    button.btn {
+        width: 100%;
+    }
+    .social-icons button.btn {
+        width: 5%;
+    }
+    button.btn:hover {
+        transform: scale(1.03);
+    }
+    .laguages-btn button.btn:hover {
+        transform: none !important;
+    }
+    .itecQuiz-local-footer {
+        padding: 12px 10px;
+    }
+}
