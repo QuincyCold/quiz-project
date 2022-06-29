@@ -1,9 +1,18 @@
-h1, h2, h3, h4, h5, h6 {
+/* test 123 */
 
-}
-a, p, ul li, table, form, button {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
 
-}
+a,
+p,
+ul li,
+table,
+form,
+button {}
 
 button.btn {
     padding: 15px 35px;
